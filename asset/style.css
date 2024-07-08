@@ -1,0 +1,19 @@
+#center {
+    text-align: center;
+}
+#right { text-align: right;
+
+}
+#left {  text-align: left;}
+#justify { text-align: justify;}
+#verticalalign { vertical-align: top;text-shadow: 10px -5px 2px #6d0303;} /*text shadow [first value is for right left, second valye is top bottom, last is for border]*/
+#measurement {height: 200px ; width: 200px;}
+#textindent {text-indent: 100px;}
+#letterbig::first-letter{ color: blueviolet; font-family: cursive; font-weight: 300; font-style: italic; font-size: 200px;}
+#letterbig::first-line{ color: burlywood;font-family: fantasy; font-weight: 10px; font-size: smaller; text-shadow: 2px 6px 10px #ec0ea2;}
+/*double colon is called PSEUDO classes*/
+.linkstyle{ text-decoration: none; color: #ec0ea2; margin:15px}
+.linkstyle:hover{ color: chartreuse; font-weight: 900; font-size: 20px; text-shadow: 3px 3px 10px #f51b1b;}
+.linkstyle:visited {
+    color: darkblue; font-style: italic;
+}
